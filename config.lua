@@ -1,22 +1,22 @@
 return {
-	bot_api_key = '',
-	google_api_key = '',
-	google_cse_key = '',
-	lastfm_api_key = '',
-	owm_api_key = '',
-	biblia_api_key = '',
-	thecatapi_key = '',
+	bot_api_key = '173115303:AAGD3JBsvjdL4NPNCmAj96J_9tuLebmr2SE',
+	google_api_key = 'https://ajax.googleapis.com/ajax/services/search/web?v=1.0',
+	google_cse_key = 'https://www.googleapis.com/customsearch/v1?&searchType=image&imgSize=xlarge&alt=json&num=8&start=1&key=',
+	lastfm_api_key = 'http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&format=json&limit=1&api_key=',
+	owm_api_key = 'http://api.openweathermap.org/data/2.5/weather?APPID=' .. config.owm_api_key .. '&lat=' .. coords.lat .. '&lon=',
+	biblia_api_key = 'http://api.biblia.com/v1/bible/content/ASV.txt?key=',
+	thecatapi_key = 'http://thecatapi.com/api/images/get?format=html&type=jpg',
 	time_offset = 0,
 	lang = 'en',
-	admin = 00000000,
-	admin_name = 'John Smith',
+	admin = 102490691,
+	admin_name = 'Arman',
 	about_text = [[
-I am otouto, the plugin-wielding, multi-purpose Telegram bot written by topkecleon.
+I am ghosto, the plugin-wielding, multi-purpose Telegram bot written by arman.
 
 Send /help to get started.
 
 Join my channel for news about updates!
-telegram.me/otouto
+telegram.me/Ghosto
 ]]	,
 	errors = {
 		connection = 'Connection error.',
@@ -58,10 +58,10 @@ telegram.me/otouto
 	},
 	moderation = {
 		admins = {
-			['00000000'] = 'You'
+			['102490691'] = 'You'
 		},
-		admin_group = -00000000,
-		realm_name = 'My Realm'
+		admin_group = -78049201,
+		realm_name = '78049201'
 	},
 	plugins = {
 		'blacklist.lua',
